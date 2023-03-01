@@ -9,19 +9,83 @@
 
 </head>
 <body>
-
 <header>
     <img src="topbanner.jpg" width="1024">
 </header>
 
 <article>
-    <h1>Hallo</h1>
+
+    <section>
+        <!-- OVERSKRIFT & UNDER OVERSKRIFT -->
+        <div class="overskriftIndex">
+            <div id="MPos">
+                <h1>Velkommen til carpool Bornholm</h1>
+            </div>
+
+            <div id="MPuos">
+                <p>Find nogen at køre sammen med</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--SELECT DATA -->
+        <div class="date">
+            <label>Vælg dato:</label> <input type="date" name="date" id="date" >
+        </div>
+
+    </section>
+
+    <section>
+        <form>
+
+            <!-- SELECT DRIVER OR PASSENGER -->
+            <div class="selectDriverOrPassenger">
+                <input type="radio" name="vehicle" value="chauffør" checked> Chauffør <br/>
+                <input type="radio" name="vehicle" value="passager"> Passager <br/>
+            </div>
+        </form>
+    </section>
+
+
+    <section>
+        <form action="resultatside.html" method="get">
+            <!-- SELECT LOCATION FROM AND TO -->
+            <div class="fromTo">
+
+                    <label> <b>Fra:</b> </label>
+                    <select class="selectBox">
+                        <option value="Rønne">Rønne</option>
+                        <option value="Åkirkeby">Åkirkeby</option>
+                        <option value="Gudhjem">Gudhjem</option>
+                        <option value="Nexø">Nexø</option>
+                    </select>
+
+
+
+                    <label> <b>Til:</b> </label>
+                    <select class="selectBox">
+                        <option value="Rønne">Rønne</option>
+                        <option value="Åkirkeby">Åkirkeby</option>
+                        <option value="Gudhjem">Gudhjem</option>
+                        <option value="Nexø">Nexø</option>
+                    </select>
+            </div>
+
+            <div id="button">
+                <button type="submit">Find kørelejlighed</button>
+            </div>
+        </form>
+
+    </section>
+
 
 
 </article>
 
+<footer>
 
-
+</footer>
 
 </body>
 </html>
