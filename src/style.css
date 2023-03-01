@@ -89,8 +89,8 @@ footer
     background-color: white;
     border-style: groove;
     border-radius: 5px; /* CORNERS ROUND */
-    margin-top: 85px;
-    padding: 5px;
+    margin-top: 80px;
+    padding: 2px;
 }
 
 .afgangReturInnerBox
@@ -100,8 +100,17 @@ footer
     border-radius: 5px; /* CORNERS ROUND */
     margin-right: 500px;
     margin-left: 145px;
-    margin-bottom: 38px;
+    margin-bottom: 28px;
 
+}
+
+.afgangReturInnerBox2
+{
+    background-color: white;
+    border-style: groove;
+    border-radius: 5px;
+    margin-left: 550px;
+    margin-right: 145px;
 }
 
 .InnerText
