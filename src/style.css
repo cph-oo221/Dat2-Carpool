@@ -121,8 +121,8 @@ footer
     background-color: white;
     border-style: groove;
     border-radius: 5px;
-    margin-left: 550px;
-    margin-right: 145px;
+    margin-left: 580px;
+    margin-right: 110px;
 }
 
 .InnerText
@@ -172,4 +172,11 @@ footer
 
     color: white;
     font-size: 20px;
+}
+
+.vælg
+{
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 18px;
 }
