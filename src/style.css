@@ -18,13 +18,18 @@ footer
     margin-top: 300px;
 }
 
+#banner
+{
+    max-width: 1124px;
+    width: 1024px;
+}
+
 
 .overskriftIndex
 {
     background-color: #d9d9d9;
-    border-radius: 5px; /* CORNERS ROUND */
-    padding: 1px;
-
+    border-radius: 10px; /* CORNERS ROUND */
+    /* padding: 1px; */
 }
 #MPos
 {
@@ -35,7 +40,9 @@ footer
 #MPuos
 {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 90px;
+    font-size: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -51,7 +58,7 @@ footer
     color: black;
     text-align: center;
     font-size: 24px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #date
@@ -67,8 +74,14 @@ footer
     color: black;
     text-align: center;
     font-size: 24px;
-    margin-top: 90px;
+    margin-top: 70px;
 }
+#passager
+{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
 
 
 .fromTo
@@ -76,7 +89,7 @@ footer
     background-color: white;
     border-style: groove;
     border-radius: 5px; /* CORNERS ROUND */
-    margin-top: 80px;
+    margin-top: 70px;
     padding: 50px;
 
     color: black;
